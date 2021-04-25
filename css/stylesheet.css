@@ -1,0 +1,67 @@
+.atiranyitas_szoveg {
+    border: 1px solid #ff0000;
+    color: #ff0000;
+    font-weight: bold;
+}
+
+.creditcard-succes-failure-page-body .comeback div:nth-child(3), .creditcard-succes-failure-page-body .comeback div:nth-child(2){
+    color: #ff0000;
+}
+
+.creditcard-succes-failure-page-body .comeback div:nth-child(3) b {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+
+.creditcard-succes-failure-page-body .comeback a:nth-child(1){
+    text-transform: uppercase!important;
+    font-size: 2.5rem!important;
+}
+
+
+.creditCardTryAgainButton, .creditCardTryAgainButton:hover{
+float:left;
+position:relative;
+background:#f85c00;
+color:#fff;
+padding:.8rem;
+margin:0 0 2rem 0;
+font-weight:bold;
+	text-transform:uppercase;
+}
+
+.creditCardTryAgainButton::after{
+content:" >";
+}
+
+
+.creditCardChangePaymentButton, .creditCardChangePaymentButton:hover{
+float:left;
+position:relative;
+background:#85bc30;
+color:#fff;
+padding:.8rem;
+margin:0 0 2rem 0;
+text-transform:uppercase;
+}
+
+.creditCardChangePaymentButton::before{
+content:"< ";
+}
+.creditCardChangePaymentButton::after{
+content:"";
+clear:both;
+}
+
+@media screen and (max-width: 768px){
+.creditCardTryAgainButton, .creditCardTryAgainButton:hover, .creditCardChangePaymentButton, .creditCardChangePaymentButton:hover{
+width:100%;
+}
+.creditCardChangePaymentButton{
+margin-bottom:10rem;
+	}
+.creditcard-succes-failure-page-body .bottom{
+clear:both;
+}
+
+}
